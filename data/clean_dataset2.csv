@@ -1,0 +1,86 @@
+question,demographic_type,demographic_group,response,estimate,population
+Current AI use,Gender,Men,Yes,45.9,people aged 18+
+Current AI use,Gender,Women,Yes,39.6,people aged 18+
+Current AI use,Age,18-25 years old,Yes,34.6,people aged 18+
+Current AI use,Age,25-45 years old,Yes,51.3,people aged 18+
+Current AI use,Age,45-65 years old,Yes,39.8,people aged 18+
+Current AI use,Age,65+ years old,Yes,24.4,people aged 18+
+Current AI use,Education,"Primary education, vmbo, mbo1",Yes,19.7,people aged 18+
+Current AI use,Education,"Havo, vwo, mbo2-4",Yes,32.0,people aged 18+
+Current AI use,Education,"Hbo, wo",Yes,55.5,people aged 18+
+Current AI use,Origin,Dutch origin,Yes,41.9,people aged 18+
+Current AI use,Origin,"Born in the Netherlands, parent(s) abroad",Yes,45.0,people aged 18+
+Current AI use,Origin,Born abroad,Yes,46.0,people aged 18+
+Current AI use,Financial welfare,1st 20% group (lowest),Yes,35.0,people aged 18+
+Current AI use,Financial welfare,2nd 20% group,Yes,35.6,people aged 18+
+Current AI use,Financial welfare,3rd 20% group,Yes,38.4,people aged 18+
+Current AI use,Financial welfare,4th 20% group,Yes,46.3,people aged 18+
+Current AI use,Financial welfare,5th 20% group (highest),Yes,48.0,people aged 18+
+Current AI use,Gender,Men,No,54.1,people aged 18+
+Current AI use,Gender,Women,No,60.4,people aged 18+
+Current AI use,Age,18-25 years old,No,65.4,people aged 18+
+Current AI use,Age,25-45 years old,No,48.7,people aged 18+
+Current AI use,Age,45-65 years old,No,60.2,people aged 18+
+Current AI use,Age,65+ years old,No,75.6,people aged 18+
+Current AI use,Education,"Primary education, vmbo, mbo1",No,80.3,people aged 18+
+Current AI use,Education,"Havo, vwo, mbo2-4",No,68.0,people aged 18+
+Current AI use,Education,"Hbo, wo",No,44.5,people aged 18+
+Current AI use,Origin,Dutch origin,No,58.1,people aged 18+
+Current AI use,Origin,"Born in the Netherlands, parent(s) abroad",No,55.0,people aged 18+
+Current AI use,Origin,Born abroad,No,54.0,people aged 18+
+Current AI use,Financial welfare,1st 20% group (lowest),No,65.0,people aged 18+
+Current AI use,Financial welfare,2nd 20% group,No,64.4,people aged 18+
+Current AI use,Financial welfare,3rd 20% group,No,61.6,people aged 18+
+Current AI use,Financial welfare,4th 20% group,No,53.7,people aged 18+
+Current AI use,Financial welfare,5th 20% group (highest),No,52.0,people aged 18+
+Future AI expectation,Gender,Men,Yes,71.1,people aged 18+ in paid work
+Future AI expectation,Gender,Women,Yes,67.9,people aged 18+ in paid work
+Future AI expectation,Age,18-25 years old,Yes,60.2,people aged 18+ in paid work
+Future AI expectation,Age,25-45 years old,Yes,76.1,people aged 18+ in paid work
+Future AI expectation,Age,45-65 years old,Yes,69.0,people aged 18+ in paid work
+Future AI expectation,Age,65+ years old,Yes,48.9,people aged 18+ in paid work
+Future AI expectation,Education,"Primary education, vmbo, mbo1",Yes,42.8,people aged 18+ in paid work
+Future AI expectation,Education,"Havo, vwo, mbo2-4",Yes,62.7,people aged 18+ in paid work
+Future AI expectation,Education,"Hbo, wo",Yes,80.9,people aged 18+ in paid work
+Future AI expectation,Origin,Dutch origin,Yes,70.7,people aged 18+ in paid work
+Future AI expectation,Origin,"Born in the Netherlands, parent(s) abroad",Yes,66.0,people aged 18+ in paid work
+Future AI expectation,Origin,Born abroad,Yes,67.4,people aged 18+ in paid work
+Future AI expectation,Financial welfare,1st 20% group (lowest),Yes,58.8,people aged 18+ in paid work
+Future AI expectation,Financial welfare,2nd 20% group,Yes,64.3,people aged 18+ in paid work
+Future AI expectation,Financial welfare,3rd 20% group,Yes,65.7,people aged 18+ in paid work
+Future AI expectation,Financial welfare,4th 20% group,Yes,73.9,people aged 18+ in paid work
+Future AI expectation,Financial welfare,5th 20% group (highest),Yes,74.7,people aged 18+ in paid work
+Future AI expectation,Gender,Men,No,15.2,people aged 18+ in paid work
+Future AI expectation,Gender,Women,No,14.9,people aged 18+ in paid work
+Future AI expectation,Age,18-25 years old,No,23.6,people aged 18+ in paid work
+Future AI expectation,Age,25-45 years old,No,12.5,people aged 18+ in paid work
+Future AI expectation,Age,45-65 years old,No,13.3,people aged 18+ in paid work
+Future AI expectation,Age,65+ years old,No,25.4,people aged 18+ in paid work
+Future AI expectation,Education,"Primary education, vmbo, mbo1",No,29.6,people aged 18+ in paid work
+Future AI expectation,Education,"Havo, vwo, mbo2-4",No,19.0,people aged 18+ in paid work
+Future AI expectation,Education,"Hbo, wo",No,9.2,people aged 18+ in paid work
+Future AI expectation,Origin,Dutch origin,No,14.5,people aged 18+ in paid work
+Future AI expectation,Origin,"Born in the Netherlands, parent(s) abroad",No,17.7,people aged 18+ in paid work
+Future AI expectation,Origin,Born abroad,No,15.9,people aged 18+ in paid work
+Future AI expectation,Financial welfare,1st 20% group (lowest),No,22.9,people aged 18+ in paid work
+Future AI expectation,Financial welfare,2nd 20% group,No,15.6,people aged 18+ in paid work
+Future AI expectation,Financial welfare,3rd 20% group,No,17.1,people aged 18+ in paid work
+Future AI expectation,Financial welfare,4th 20% group,No,11.9,people aged 18+ in paid work
+Future AI expectation,Financial welfare,5th 20% group (highest),No,13.2,people aged 18+ in paid work
+Future AI expectation,Gender,Men,Do not know,13.7,people aged 18+ in paid work
+Future AI expectation,Gender,Women,Do not know,17.2,people aged 18+ in paid work
+Future AI expectation,Age,18-25 years old,Do not know,16.2,people aged 18+ in paid work
+Future AI expectation,Age,25-45 years old,Do not know,11.4,people aged 18+ in paid work
+Future AI expectation,Age,45-65 years old,Do not know,17.8,people aged 18+ in paid work
+Future AI expectation,Age,65+ years old,Do not know,25.7,people aged 18+ in paid work
+Future AI expectation,Education,"Primary education, vmbo, mbo1",Do not know,27.7,people aged 18+ in paid work
+Future AI expectation,Education,"Havo, vwo, mbo2-4",Do not know,18.2,people aged 18+ in paid work
+Future AI expectation,Education,"Hbo, wo",Do not know,9.8,people aged 18+ in paid work
+Future AI expectation,Origin,Dutch origin,Do not know,14.9,people aged 18+ in paid work
+Future AI expectation,Origin,"Born in the Netherlands, parent(s) abroad",Do not know,16.3,people aged 18+ in paid work
+Future AI expectation,Origin,Born abroad,Do not know,16.8,people aged 18+ in paid work
+Future AI expectation,Financial welfare,1st 20% group (lowest),Do not know,18.3,people aged 18+ in paid work
+Future AI expectation,Financial welfare,2nd 20% group,Do not know,20.0,people aged 18+ in paid work
+Future AI expectation,Financial welfare,3rd 20% group,Do not know,17.2,people aged 18+ in paid work
+Future AI expectation,Financial welfare,4th 20% group,Do not know,14.3,people aged 18+ in paid work
+Future AI expectation,Financial welfare,5th 20% group (highest),Do not know,12.2,people aged 18+ in paid work

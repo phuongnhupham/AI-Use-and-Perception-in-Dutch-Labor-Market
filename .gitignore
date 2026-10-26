@@ -1,0 +1,11 @@
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
