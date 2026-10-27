@@ -79,7 +79,7 @@ The per-statement scores (Graph 2b) show that this average hides a clear split: 
 - **Higher-income groups use AI the most today** and expect the highest future use (48% → 75% for the top 20%, vs 35% → 59% for the bottom 20%).
 - **People born abroad or with parents born abroad use AI slightly more today** (45–46% vs 42% of people of Dutch origin), **but expect less growth** (+21 pp vs +29 pp).
 
-Note: current use is measured among all people aged 18+, the expectation among people aged 18+ in paid work, so each gap compares two slightly different groups. [Open the interactive version](figures/graph3_adoption_gap.html).
+Note: current use is measured among all people aged 18+, the expectation among people aged 18+ in paid work, so each gap compares two slightly different groups. 
 
 ![Graph 3](figures/graph3_adoption_gap.png)
 
