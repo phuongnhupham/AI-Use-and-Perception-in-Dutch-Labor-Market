@@ -30,21 +30,18 @@ cd Perception-and-Use-of-Artificial-Intelligence-in-Dutch-Labor-Market
 python -m pip install -r requirements.txt
 python -m notebook "codes/AI_use_in_Dutch_labor_market_Project codes.ipynb"
 ```
-On Windows, use `py` instead of `python` (for example `py -m pip install -r requirements.txt`). Running pip and Jupyter through `-m` works even when their commands are not on your PATH.
-
-Run all cells from top to bottom. The notebook reads the raw files from `data/`, writes the cleaned datasets back to `data/` and saves every chart to `figures/`.
 
 ## Step 1: Data Wrangling
 
-**- Reshape the CBS exports into tidy format.** CBS publishes each survey table in wide format: one column per question × answer × measure (estimate, lower bound, upper bound), with the labels spread over several header rows. A single helper function, `tidy_cbs_table`, turns both survey files into one row per group, question and answer. It finds the estimate columns by their header label (`Schatting`) instead of by column position, so the code keeps working if CBS adds or reorders columns.
+**- Reshape the CBS exports into tidy format.** CBS publishes each survey table in wide format: one column per question × answer × measure (estimate, lower bound, upper bound), with the labels spread over several header rows. I turned both survey files into one row per group, question and answer `tidy_cbs_table`. I found the estimate columns by their header label (`Schatting`) instead of by column position, so the code keeps working if CBS adds or reorders columns.
 
 **- Remove empty values & rows.** Blank spacer rows are dropped, and rows that have a label but no numbers are recognised as section headers (e.g. _Gender_, _Age_) and used to label the rows below them.
 
-**- Standardize variables.** Estimates are converted to numbers, and all Dutch questions, answers and demographic labels are translated to English with dictionaries. The notebook stops with an error if CBS uses a label that is missing from the dictionaries, instead of silently leaving it untranslated.
+**- Standardize variables.** Estimates are converted to numbers, and all Dutch questions, answers and demographic labels are translated to English with dictionaries. 
 
 **- Keep track of who was asked.** CBS reports current AI use as a share of _all people aged 18+_, but the 10-year expectation as a share of _people aged 18+ in paid work_. This is kept as a `population` column so the charts can say which group each number describes.
 
-**- Merge the two company datasets on year.** The per-technology and overall adoption tables are joined on a numeric year, and years marked `*` are flagged as provisional.
+**- Merge the two company datasets on year.** The per-technology and overall adoption tables are joined on year, and years marked `*` are flagged as provisional.
 
 ## Step 2: Data Analysis
 
@@ -54,8 +51,7 @@ Run all cells from top to bottom. The notebook reads the raw files from `data/`,
 
 **- Calculate the AI adoption gap.** The gap is the difference, in percentage points (pp), between the share expecting to use AI (more) in the next 10 years and the share using it now.
 
-**- Compare like with like.** CBS has two overall company measures: at least one of **4** technologies (from 2020) and at least one of **7** technologies (from 2021). The company comparison uses the 7-technology measure for both years.
-
+**- Compare like with like.** CBS has two overall company measures: at least one of **4** technologies (from 2020) and at least one of **7** technologies (from 2021). For graph 5, I chose to compare 2021 and the last year (2024), both with 7 technologies for a fair, and equal comparision. 
 ## Step 3: Data Visualization & Key Findings
 
 ### Question 1: What is the general perception of AI among the Dutch population?
@@ -102,12 +98,11 @@ Note: current use is measured among all people aged 18+, the expectation among p
 ## Conclusion
 Dutch adults see AI as both useful and threatening: they mostly agree it raises productivity and helps with staff shortages, but even more strongly expect it to remove jobs and erode skills. At the same time, AI is spreading quickly, both among workers, where every group expects to use it more within 10 years, and among companies, where adoption rose by almost 10 pp in three years, driven by language-based tools.
 
-The groups that use AI least today (lower education, lower income, 65+) also expect some of the smallest increases (+23 to +24 pp), so the current divide is unlikely to close on its own. For **employers**, this points to training aimed at lower-educated staff and at the skills people fear losing. For **policymakers**, it suggests that worries about job loss are widespread and worth addressing directly, rather than assuming that more AI use will make them disappear.
+The groups that use AI least today (lower education, lower income, 65+) also expect some of the smallest increases (+23 to +24 pp), so the current divide is unlikely to close on its own. For **employers**, this points to more thorough AI training for all staffs, specifically aimed at the skills people fear losing; and a more structure and systematic intergration of AI across different departments. specifically aimed at the skills people fear losing. 
 
 ## Limitations
 - **Provisional figures**: company data for 2022–2024 are provisional and may still be revised by CBS.
 - **Change in definition**: the overall company measure changed from 4 to 7 technologies in 2021; only same-definition figures are compared.
 - **Different groups**: current AI use and expected future use are measured for different populations (all adults vs adults in paid work).
-- **Cross-sectional survey**: the 2025 survey is a single snapshot, so it shows differences between groups, not changes within people over time.
 - **Self-reported data**: AI use and expectations are what respondents report, which may differ from actual use (for example, people may not recognise AI built into the tools they use).
 - **Scoring choices**: the response balance score depends on the reverse-coding and on weighting "Maybe" and "Do not know" as 0.5.
